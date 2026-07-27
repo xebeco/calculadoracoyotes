@@ -1,4 +1,4 @@
-const custos = [600, 1050, 600, 400];
+const custos = [150000, 300, 1200];
 
 const tabela = document.querySelector("#tabela");
 const linhas = tabela.querySelectorAll("tbody tr");
