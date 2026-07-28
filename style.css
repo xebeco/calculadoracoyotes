@@ -155,24 +155,45 @@ h1{
 }
 
 }
-.footer{
-    margin:40px 0 15px;
-    text-align:center;
-    font-family:'Poppins',sans-serif;
-    font-size:13px;
-    color:rgba(255,255,255,.35);
-    letter-spacing:2px;
-    user-select:none;
+footer {
+    width: 100%;
+    margin-top: 40px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.dev-link{
-    color:#2F80ED;
-    text-decoration:none;
-    font-weight:600;
-    transition:.25s ease;
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 0 20px;
+    text-align: center;
 }
 
-.dev-link:hover{
-    color:#58A6FF;
-    text-shadow:0 0 8px rgba(47,128,237,.6);
+footer p {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #7c7c7c;
+    letter-spacing: 2px;
+}
+
+footer a:hover {
+    color: #56a3ff;
+}
+footer a,
+footer a:visited,
+footer a:hover,
+footer a:active {
+    color: #2f80ed;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: #56a3ff;
 }
